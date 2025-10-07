@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Reserva</title>
+</head>
+<body>
+    <header><img src="https://i.pinimg.com/1200x/12/86/94/128694b380379416b0668023d34d37a4.jpg" alt="Logo com mala e um formato de avião" width="100"> <hr></header>
+
+    <main><h1>Reserva de viagens</h1>
+    <form action="">
+        <label for="nome">Nome do Passageiro:</label> <br>
+        <input type="text" name="nome" id="nome" required> <br> <br>
+        <label for=""></label>
+        <select name="select" id="select">
+                <option value="" disabled selected>Destino</option>
+                <option value="bonito">Bonito</option>
+                <option value="gramado">Gramado</option>
+                <option value="fortaleza">Fortaleza</option>
+            </select> <br> <br>
+            <label for="ida">Data de ida:</label> <br>
+            <input type="date" name="ida" id="ida" required> <br> <br>
+            <label for="volta">Data de volta:</label> <br>
+            <input type="date" name="volta" id="volta" required> <br> <br>
+            <label for="passageirosNumero"></label>
+            <label for="number">Número de Passageiros:</label> <br>
+            <input type="number" name="passageirosNumero" id="passageirosNumero" required> <br> <br>
+
+            <label for="assento">Escolha de Assento</label> <br> 
+<input type="radio" id="janela" name="assento" value="janela"> <label for="janela">Janela</label> 
+<input type="radio" id="meio" name="assento" value="meio"> <label for="meio">Meio</label> 
+<input type="radio" id="corredor" name="assento" value="corredor"> <label for="corredor">Corredor</label> 
+
+<br> <br>
+<input type="submit" name="confirmar" id="confirmar" value="Confirmar Reserva" >
+
+
+    </form>
+    
+    </main>
+</body>
+</html>
